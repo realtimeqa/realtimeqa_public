@@ -3,22 +3,27 @@
 
 <p align="center">
 <a href="https://nlp.cs.washington.edu/billboard/">
-<img src="https://github.com/jungokasai/billboard/blob/master/figs/realtimeqa_logo_text.png" height="300" alt="realtimeqa">
+<img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/realtimeqa_logo_text.png" height="300" alt="realtimeqa">
 </a>
 </p>
 
 ## Introduction
-RealTime QA is a dynamic question answering (QA) platform that inquires about **the present**. We announces ~30 questions and evaluates real-time baseline systems (e.g., GPT-3 and T5) on a regular basis (weekly in this version).
+[RealTime QA](https://realtimeqa.github.io/) is a dynamic question answering (QA) platform that inquires about **the present**. We announces ~30 questions and evaluates real-time baseline systems (e.g., GPT-3 and T5) on a regular basis (weekly in this version).
 
 ## Data and Retrieval Results
 This repository provides our past data, as well as the latest, ongoing questions.
 * [Latest Questions](https://github.com/realtimeqa/realtimeqa_public/tree/main/latest)
 * [Past Questions](https://github.com/realtimeqa/realtimeqa_public/tree/main/past)
 * [Backnumber Questions](https://github.com/realtimeqa/realtimeqa_public/tree/main/backnumber)
-The backnumber questions preceded our real-time baselines that started from June 17, 2022. See [our paper](https://arxiv.org/abs/2207.13332) for more detail. Our baseline retrieval results (Google custom search and DPR) are also provided (e.g., [June 17, 2022 Google custom search](https://github.com/realtimeqa/realtimeqa_public/blob/main/past/2022/20220617_gcs.jsonl)). The past questions have all six baseline results under the multiple-choice and original settings (e.g., [GPT-3 + Google Custom Search Generation Results](https://github.com/realtimeqa/realtimeqa_public/blob/main/past/2022/20220715_qa_open_gpt3_dpr_gen.jsonl)).
+
+The backnumber questions preceded our real-time baselines that started from June 17, 2022. See [our paper](https://arxiv.org/abs/2207.13332) for more detail. Our baseline retrieval results (Google custom search and DPR) are also provided (e.g., [June 17, 2022 Google custom search](https://github.com/realtimeqa/realtimeqa_public/blob/main/past/2022/20220617_gcs.jsonl)). The past questions have all six baseline results under the multiple-choice and original settings (e.g., [GPT-3 + Google Custom Search Generation Results](https://github.com/realtimeqa/realtimeqa_public/blob/main/baseline_results/20220715_qa_open_gpt3_dpr_gen.jsonl)).
 
 ## Submit 
-The submission window closes when the next set of questions is announced (3 am GMT on every Saturday). Submit via [this google form](https://arxiv.org/abs/2207.13332). The indexes for multiple-choice answer should start with `0`. See [examples](https://github.com/realtimeqa/realtimeqa_public/blob/main/past/2022/20220715_qa_open_gpt3_gcs.jsonl).
+The submission window closes when the next set of questions is announced (3 am GMT on every Saturday). Submit via [this google form](https://arxiv.org/abs/2207.13332). The indexes for multiple-choice answer should start with `0`. See [examples](https://github.com/realtimeqa/realtimeqa_public/blob/main/baseline_results/20220715_qa_open_gpt3_gcs.jsonl).
+
+## Our 6 Real-time Baselines
+See [our script](https://github.com/realtimeqa/realtimeqa_public/tree/main/scripts) that we use for the six baseline models in the [paper](https://arxiv.org/abs/2207.13332). We run them every week. The results are updated every week on our [website](https://realtimeqa.github.io/).
+
 
 ## Citations
 ### Bidimesional Leaderboards
@@ -36,7 +41,7 @@ The submission window closes when the next set of questions is announced (3 am G
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://allenai.org/">
-<img src="https://github.com/jungokasai/THumB/blob/master/figs/ai2_logo.png" height="100" alt="AI2 Logo" style="padding-right:160">
+<img src="https://github.com/jungokasai/THumB/blob/master/figs/ai2_logo.png" height="200" alt="AI2 Logo" style="padding-right:160">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="">
