@@ -10,6 +10,9 @@
 ## Introduction
 [RealTime QA](https://realtimeqa.github.io/) is a dynamic question answering (QA) platform that inquires about **the present**. We announces ~30 questions and evaluates real-time baseline systems (e.g., GPT-3 and T5) on a regular basis (weekly in this version).
 
+## # <img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/twitter.png" height="40" alt="twitter">  This Week's Questions
+Follow [us on Twitter](https://twitter.com/realtimeqa). We tweet interesting examples from our GPT-3 baselines every week!
+
 ## Data and Retrieval Results
 This repository provides our past data, as well as the latest, ongoing questions.
 * [Latest Questions](https://github.com/realtimeqa/realtimeqa_public/tree/main/latest)
@@ -41,7 +44,7 @@ See [our script](https://github.com/realtimeqa/realtimeqa_public/tree/main/scrip
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://allenai.org/">
-<img src="https://github.com/jungokasai/THumB/blob/master/figs/ai2_logo.png" height="200" alt="AI2 Logo" style="padding-right:160">
+<img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/ai2_logo.png" height="100" alt="AI2 Logo" style="padding-right:160">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="">
