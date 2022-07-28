@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="https://nlp.cs.washington.edu/billboard/">
+<a href="https://realtimeqa.github.io/)">
 <img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/realtimeqa_logo_text.png" height="200" alt="realtimeqa">
 </a>
 </p>
@@ -10,7 +10,7 @@
 ## Introduction
 [RealTime QA](https://realtimeqa.github.io/) is a dynamic question answering (QA) platform that inquires about **the present**. We announces ~30 questions and evaluates real-time baseline systems (e.g., GPT-3 and T5) on a regular basis (weekly in this version).
 
-## # <img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/twitter.png" height="40" alt="twitter">  This Week's Questions
+## <img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/twitter.png" height="30" alt="twitter">  This Week's Questions
 Follow [us on Twitter](https://twitter.com/realtimeqa). We tweet interesting examples from our GPT-3 baselines every week!
 
 ## Data and Retrieval Results
