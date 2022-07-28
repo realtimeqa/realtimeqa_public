@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="https://realtimeqa.github.io/)">
+<a href="https://realtimeqa.github.io/">
 <img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/realtimeqa_logo_text.png" height="200" alt="realtimeqa">
 </a>
 </p>
