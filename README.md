@@ -3,7 +3,7 @@
 
 <p align="center">
 <a href="https://nlp.cs.washington.edu/billboard/">
-<img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/realtimeqa_logo_text.png" height="300" alt="realtimeqa">
+<img src="https://github.com/realtimeqa/realtimeqa_public/blob/main/figs/realtimeqa_logo_text.png" height="200" alt="realtimeqa">
 </a>
 </p>
 
