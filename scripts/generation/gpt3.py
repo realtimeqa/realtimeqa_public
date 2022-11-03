@@ -54,6 +54,8 @@ def gpt3_question(question, retrieved_text=None, model="text-davinci-002", rm_da
                                 temperature = 0.0,
                                 )
         #lprobs = np.array(output["choices"][0]["logprobs"]["token_logprobs"][1:])
+        import IPython as ipy
+        ipy.embed()
         assert output["choices"][0]["logprobs"]["tokens"][-ans_len-2] == "Answer"
         assert output["choices"][0]["logprobs"]["tokens"][-ans_len-1] == ":"
         lprobs = np.array(output["choices"][0]["logprobs"]["token_logprobs"][-ans_len:])
