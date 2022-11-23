@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 import string, datetime
 import numpy as np
 from utils.tools import check_jsonls, add_today
