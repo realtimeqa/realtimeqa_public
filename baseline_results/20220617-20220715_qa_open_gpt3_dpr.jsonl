@@ -1,0 +1,149 @@
+{"question_id": "20220617_0", "prediction": ["1"]}
+{"question_id": "20220617_1", "prediction": ["1"]}
+{"question_id": "20220617_2", "prediction": ["2"]}
+{"question_id": "20220617_3", "prediction": ["2"]}
+{"question_id": "20220617_4", "prediction": ["3"]}
+{"question_id": "20220617_5", "prediction": ["3"]}
+{"question_id": "20220617_6", "prediction": ["3"]}
+{"question_id": "20220617_7", "prediction": ["3"]}
+{"question_id": "20220617_8", "prediction": ["2"]}
+{"question_id": "20220617_9", "prediction": ["2"]}
+{"question_id": "20220617_10", "prediction": ["2"]}
+{"question_id": "20220617_11", "prediction": ["3"]}
+{"question_id": "20220617_12", "prediction": ["3"]}
+{"question_id": "20220617_13", "prediction": ["2"]}
+{"question_id": "20220617_14", "prediction": ["3"]}
+{"question_id": "20220617_15", "prediction": ["3"]}
+{"question_id": "20220617_16", "prediction": ["3"]}
+{"question_id": "20220617_17", "prediction": ["1"]}
+{"question_id": "20220617_18", "prediction": ["1"]}
+{"question_id": "20220617_19", "prediction": ["3"]}
+{"question_id": "20220617_20", "prediction": ["1"]}
+{"question_id": "20220617_21", "prediction": ["1"]}
+{"question_id": "20220617_22", "prediction": ["2"]}
+{"question_id": "20220617_23", "prediction": ["0"]}
+{"question_id": "20220617_24", "prediction": ["1"]}
+{"question_id": "20220617_25", "prediction": ["0"]}
+{"question_id": "20220617_26", "prediction": ["3"]}
+{"question_id": "20220617_27", "prediction": ["1"]}
+{"question_id": "20220617_28", "prediction": ["2"]}
+{"question_id": "20220624_0", "prediction": ["1"]}
+{"question_id": "20220624_1", "prediction": ["2"]}
+{"question_id": "20220624_2", "prediction": ["0"]}
+{"question_id": "20220624_3", "prediction": ["1"]}
+{"question_id": "20220624_4", "prediction": ["2"]}
+{"question_id": "20220624_5", "prediction": ["1"]}
+{"question_id": "20220624_6", "prediction": ["2"]}
+{"question_id": "20220624_7", "prediction": ["1"]}
+{"question_id": "20220624_8", "prediction": ["3"]}
+{"question_id": "20220624_9", "prediction": ["1"]}
+{"question_id": "20220624_10", "prediction": ["1"]}
+{"question_id": "20220624_11", "prediction": ["2"]}
+{"question_id": "20220624_12", "prediction": ["0"]}
+{"question_id": "20220624_13", "prediction": ["0"]}
+{"question_id": "20220624_14", "prediction": ["2"]}
+{"question_id": "20220624_15", "prediction": ["2"]}
+{"question_id": "20220624_16", "prediction": ["1"]}
+{"question_id": "20220624_17", "prediction": ["3"]}
+{"question_id": "20220624_18", "prediction": ["2"]}
+{"question_id": "20220624_19", "prediction": ["3"]}
+{"question_id": "20220624_20", "prediction": ["2"]}
+{"question_id": "20220624_21", "prediction": ["3"]}
+{"question_id": "20220624_22", "prediction": ["2"]}
+{"question_id": "20220624_23", "prediction": ["2"]}
+{"question_id": "20220624_24", "prediction": ["3"]}
+{"question_id": "20220624_25", "prediction": ["2"]}
+{"question_id": "20220624_26", "prediction": ["1"]}
+{"question_id": "20220624_27", "prediction": ["3"]}
+{"question_id": "20220624_28", "prediction": ["1"]}
+{"question_id": "20220624_29", "prediction": ["2"]}
+{"question_id": "20220701_0", "prediction": ["2"], "score": "0.30413678462804444"}
+{"question_id": "20220701_1", "prediction": ["0"], "score": "0.524627972376664"}
+{"question_id": "20220701_2", "prediction": ["1"], "score": "0.33934137514431567"}
+{"question_id": "20220701_3", "prediction": ["1"], "score": "0.7896827505118788"}
+{"question_id": "20220701_4", "prediction": ["2"], "score": "0.4375302593360351"}
+{"question_id": "20220701_5", "prediction": ["0"], "score": "0.37378159015416873"}
+{"question_id": "20220701_6", "prediction": ["1"], "score": "0.4333545916524374"}
+{"question_id": "20220701_7", "prediction": ["3"], "score": "0.3458658717328205"}
+{"question_id": "20220701_8", "prediction": ["2"], "score": "0.6742966136877879"}
+{"question_id": "20220701_9", "prediction": ["1"], "score": "0.5704836050218274"}
+{"question_id": "20220701_10", "prediction": ["3"], "score": "0.4401086224432718"}
+{"question_id": "20220701_11", "prediction": ["2"], "score": "0.31046724026730815"}
+{"question_id": "20220701_12", "prediction": ["2"], "score": "0.4171286853304818"}
+{"question_id": "20220701_13", "prediction": ["1"], "score": "0.3191564458865102"}
+{"question_id": "20220701_14", "prediction": ["2"], "score": "0.37767992969289904"}
+{"question_id": "20220701_15", "prediction": ["1"], "score": "0.42322473440334335"}
+{"question_id": "20220701_16", "prediction": ["3"], "score": "0.28556806048882644"}
+{"question_id": "20220701_17", "prediction": ["2"], "score": "0.42543456886962694"}
+{"question_id": "20220701_18", "prediction": ["2"], "score": "0.4545241404989204"}
+{"question_id": "20220701_19", "prediction": ["2"], "score": "0.3321214754104204"}
+{"question_id": "20220701_20", "prediction": ["1"], "score": "0.4382249226945506"}
+{"question_id": "20220701_21", "prediction": ["3"], "score": "0.32995817146147854"}
+{"question_id": "20220701_22", "prediction": ["3"], "score": "0.3914423802557297"}
+{"question_id": "20220701_23", "prediction": ["1"], "score": "0.3907097368353112"}
+{"question_id": "20220701_24", "prediction": ["2"], "score": "0.3484350501767525"}
+{"question_id": "20220701_25", "prediction": ["2"], "score": "0.4252568108024449"}
+{"question_id": "20220701_26", "prediction": ["3"], "score": "0.35055792323232077"}
+{"question_id": "20220701_27", "prediction": ["0"], "score": "0.28260098867770894"}
+{"question_id": "20220701_28", "prediction": ["1"], "score": "0.3732695112179439"}
+{"question_id": "20220701_29", "prediction": ["1"], "score": "0.3818508743335778"}
+{"question_id": "20220708_0", "prediction": ["1"], "score": "0.4588604279886921"}
+{"question_id": "20220708_1", "prediction": ["3"], "score": "0.3678159374852174"}
+{"question_id": "20220708_2", "prediction": ["3"], "score": "0.47639960209510634"}
+{"question_id": "20220708_3", "prediction": ["2"], "score": "0.5473157317201713"}
+{"question_id": "20220708_4", "prediction": ["1"], "score": "0.3932100907205028"}
+{"question_id": "20220708_5", "prediction": ["1"], "score": "0.5028408568394255"}
+{"question_id": "20220708_6", "prediction": ["1"], "score": "0.42515881141250916"}
+{"question_id": "20220708_7", "prediction": ["1"], "score": "0.5221342526001873"}
+{"question_id": "20220708_8", "prediction": ["1"], "score": "0.6273965981175627"}
+{"question_id": "20220708_9", "prediction": ["2"], "score": "0.39186124649984394"}
+{"question_id": "20220708_10", "prediction": ["2"], "score": "0.33873632090273187"}
+{"question_id": "20220708_11", "prediction": ["2"], "score": "0.5973550505792432"}
+{"question_id": "20220708_12", "prediction": ["2"], "score": "0.5663108529564848"}
+{"question_id": "20220708_13", "prediction": ["0"], "score": "0.5616058486781002"}
+{"question_id": "20220708_14", "prediction": ["2"], "score": "0.34326552733294124"}
+{"question_id": "20220708_15", "prediction": ["1"], "score": "0.3733320953617698"}
+{"question_id": "20220708_16", "prediction": ["1"], "score": "0.33265924638599764"}
+{"question_id": "20220708_17", "prediction": ["2"], "score": "0.5017834367178841"}
+{"question_id": "20220708_18", "prediction": ["0"], "score": "0.8636271751465768"}
+{"question_id": "20220708_19", "prediction": ["0"], "score": "0.36164407300092943"}
+{"question_id": "20220708_20", "prediction": ["3"], "score": "0.38723682493529643"}
+{"question_id": "20220708_21", "prediction": ["2"], "score": "0.37377331380370654"}
+{"question_id": "20220708_22", "prediction": ["2"], "score": "0.46082650222130456"}
+{"question_id": "20220708_23", "prediction": ["2"], "score": "0.42718435124360166"}
+{"question_id": "20220708_24", "prediction": ["3"], "score": "0.6804036285458293"}
+{"question_id": "20220708_25", "prediction": ["0"], "score": "0.43117199080566476"}
+{"question_id": "20220708_26", "prediction": ["3"], "score": "0.3617812748050873"}
+{"question_id": "20220708_27", "prediction": ["2"], "score": "0.559289360427266"}
+{"question_id": "20220708_28", "prediction": ["3"], "score": "0.3803572172199464"}
+{"question_id": "20220708_29", "prediction": ["2"], "score": "0.2993319104720704"}
+{"question_id": "20220715_0", "prediction": ["2"], "score": "0.38190631506435807"}
+{"question_id": "20220715_1", "prediction": ["2"], "score": "0.41672310833264103"}
+{"question_id": "20220715_2", "prediction": ["2"], "score": "0.44913300966906927"}
+{"question_id": "20220715_3", "prediction": ["3"], "score": "0.3447481530551044"}
+{"question_id": "20220715_4", "prediction": ["1"], "score": "0.49001475509897113"}
+{"question_id": "20220715_5", "prediction": ["2"], "score": "0.3020881251558536"}
+{"question_id": "20220715_6", "prediction": ["2"], "score": "0.7620629679952372"}
+{"question_id": "20220715_7", "prediction": ["3"], "score": "0.42625874205651193"}
+{"question_id": "20220715_8", "prediction": ["1"], "score": "0.31357462690350013"}
+{"question_id": "20220715_9", "prediction": ["3"], "score": "0.3307549758729016"}
+{"question_id": "20220715_10", "prediction": ["3"], "score": "0.30938122929363954"}
+{"question_id": "20220715_11", "prediction": ["0"], "score": "0.31831788999824856"}
+{"question_id": "20220715_12", "prediction": ["1"], "score": "0.786128250948638"}
+{"question_id": "20220715_13", "prediction": ["3"], "score": "0.4115572172440635"}
+{"question_id": "20220715_14", "prediction": ["3"], "score": "0.4681660974665941"}
+{"question_id": "20220715_15", "prediction": ["3"], "score": "0.3437017995993822"}
+{"question_id": "20220715_16", "prediction": ["1"], "score": "0.330374307114103"}
+{"question_id": "20220715_17", "prediction": ["3"], "score": "0.49069663296632204"}
+{"question_id": "20220715_18", "prediction": ["3"], "score": "0.3621686441877806"}
+{"question_id": "20220715_19", "prediction": ["2"], "score": "0.6342697636003175"}
+{"question_id": "20220715_20", "prediction": ["3"], "score": "0.3565405947122245"}
+{"question_id": "20220715_21", "prediction": ["1"], "score": "0.545715052806825"}
+{"question_id": "20220715_22", "prediction": ["3"], "score": "0.4838215149248513"}
+{"question_id": "20220715_23", "prediction": ["2"], "score": "0.4096359581522841"}
+{"question_id": "20220715_24", "prediction": ["0"], "score": "0.34510147452131296"}
+{"question_id": "20220715_25", "prediction": ["3"], "score": "0.430465516571797"}
+{"question_id": "20220715_26", "prediction": ["2"], "score": "0.3572342358052434"}
+{"question_id": "20220715_27", "prediction": ["2"], "score": "0.4602992057645966"}
+{"question_id": "20220715_28", "prediction": ["3"], "score": "0.33365589202120466"}
+{"question_id": "20220715_29", "prediction": ["3"], "score": "0.36220594301723497"}
