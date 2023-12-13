@@ -29,13 +29,14 @@ See [our script](https://github.com/realtimeqa/realtimeqa_public/tree/main/scrip
 
 
 ## Citations
-### Bidimesional Leaderboards
 ```
-@misc{kasai2022realtimeqa,
-  author    = {Jungo Kasai and Keisuke Sakaguchi and Yoichi Takahashi and Ronan Le Bras and Akari Asai and Xinyan Yu and Dragomir Radev and Noah A. Smith and Yejin Choi and Kentaro Inui},
-  title     = {{R}eal{T}ime {QA}: What's the Answer Right Now?},
-  year      = {2022},
-  url       = {https://arxiv.org/abs/2207.13332},
+@inproceedings{
+kasai2023realtime,
+title={RealTime {QA}: What's the Answer Right Now?},
+author={Jungo Kasai and Keisuke Sakaguchi and yoichi takahashi and Ronan Le Bras and Akari Asai and Xinyan Velocity Yu and Dragomir Radev and Noah A. Smith and Yejin Choi and Kentaro Inui},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2023},
+url={https://openreview.net/forum?id=HfKOIPCvsv}
 }
 ```
 <p align="center">
