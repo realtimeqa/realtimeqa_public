@@ -16,6 +16,13 @@ def main(in_file, config="closed_gpt3", out_dir="../baseline_results/", gcs_file
         dpr_file = in_file.replace("_qa.jsonl", "_dpr.jsonl").replace("_qa_nota.jsonl", "_dpr.jsonl")
         retrieved_data = read_jsonl(dpr_file)
         answers, scores = run_gpt3(questions, retrieved_data=retrieved_data, generate=generate, rm_date_q=rm_date_q, rm_date_r=rm_date_r)
+
+    elif config == "open_gpt4o_dpr":
+        from generation.gpt4o import run_gpt4o
+        dpr_file = in_file.replace("_qa.jsonl", "_dpr.jsonl").replace("_qa_nota.jsonl", "_dpr.jsonl")
+        retrieved_data = read_jsonl(dpr_file)
+        answers, scores = run_gpt4o(questions, retrieved_data=retrieved_data, generate=generate, rm_date_q=rm_date_q, rm_date_r=rm_date_r)
+
     elif config == "open_rag_dpr":
         from generation.rag import run_rag
         dpr_file = in_file.replace("_qa.jsonl", "_dpr.jsonl").replace("_qa_nota.jsonl", "_dpr.jsonl")
@@ -32,6 +39,17 @@ def main(in_file, config="closed_gpt3", out_dir="../baseline_results/", gcs_file
         check_jsonls(gcs, dpr)
         retrieved_data = fall_back(gcs, dpr)
         answers, scores = run_gpt3(questions, retrieved_data=retrieved_data, generate=generate, rm_date_q=rm_date_q, rm_date_r=rm_date_r)
+
+    elif config == "open_gpt4o_gcs":
+        from generation.gpt4o import run_gpt4o
+        if gcs_file is None:
+            gcs_file = in_file.replace("_qa.jsonl", "_gcs.jsonl").replace("_qa_nota.jsonl", "_gcs.jsonl")
+        dpr_file = in_file.replace("_qa.jsonl", "_dpr.jsonl").replace("_qa_nota.jsonl", "_dpr.jsonl")
+        gcs = read_jsonl(gcs_file)
+        dpr = read_jsonl(dpr_file)
+        check_jsonls(gcs, dpr)
+        retrieved_data = fall_back(gcs, dpr)
+        answers, scores = run_gpt4o(questions, retrieved_data=retrieved_data, generate=generate, rm_date_q=rm_date_q, rm_date_r=rm_date_r)
 
     elif config == "open_rag_gcs":
         from generation.rag import run_rag
@@ -59,7 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--in-file', type=str, metavar='N',
                         default='dummy_data/20220201_qa.jsonl', help='input jsonl file')
     parser.add_argument('--config', type=str, metavar='N',
-                        choices=["closed_gpt3", "closed_t5", "open_gpt3_dpr", "open_gpt3_gcs", "open_rag_dpr", "open_rag_gcs"],
+                        choices=["closed_gpt3", "closed_t5", "open_gpt3_dpr", "open_gpt3_gcs", "open_gpt4o_dpr", "open_gpt4o_gcs", "open_rag_dpr", "open_rag_gcs"],
                         default='closed_gpt3', help='baseline configuration')
     parser.add_argument('--out-dir', type=str, metavar='N',
                         default='../baseline_results/', help='baseline results output')
