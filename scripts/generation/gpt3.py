@@ -4,16 +4,17 @@ import string, datetime
 import numpy as np
 from utils.tools import check_jsonls, add_today
 from transformers import GPT2TokenizerFast
+from tqdm import tqdm
+import time
 
-def run_gpt3(questions, retrieved_data=None, generate=False, model="text-davinci-002", rm_date_q=False, rm_date_r=False):
+def run_gpt3(questions, retrieved_data=None, generate=False, model="davinci-002", rm_date_q=False, rm_date_r=False):
     answers = []
     scores = []
     tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
-    #model = 'text-ada-001'
-    #model = 'text-babbage-001'
-    #model = 'text-curie-001'
-    model = 'text-davinci-002'
-    for q_idx in range(len(questions)):
+    # model = 'gpt-3.5-turbo-instruct'
+    # model = 'babbage-002'
+    # model = 'davinci-002'
+    for q_idx in tqdm(range(len(questions))):
         question = questions[q_idx]
         if retrieved_data is not None:
             retrieved_text = get_retrieved_text(retrieved_data[q_idx], top_k=5, rm_date_r=rm_date_r)
@@ -27,7 +28,7 @@ def run_gpt3(questions, retrieved_data=None, generate=False, model="text-davinci
         scores.append(score)
     return answers, scores
 
-def gpt3_question(question, retrieved_text=None, model="text-davinci-002", rm_date_q=False, tokenizer=None):
+def gpt3_question(question, retrieved_text=None, model="davinci-002", rm_date_q=False, tokenizer=None):
     sentence = question["question_sentence"]
     if not rm_date_q:
         sentence = add_today(sentence, question["question_date"])
@@ -43,19 +44,28 @@ def gpt3_question(question, retrieved_text=None, model="text-davinci-002", rm_da
     scores = []
     for alphabet, choice in zip(string.ascii_uppercase, choices):
         ans = "Answer: {}) {}".format(alphabet, choice)
-        ans_len = len(tokenizer(ans)['input_ids']) - 1
+        # ans_len = len(tokenizer(ans)['input_ids']) - 1
         query = prompt + "\n" + ans
-        output = openai.Completion.create(
-                                model=model,
-                                prompt=query,
-                                max_tokens = 1,
-                                logprobs = 5,
-                                echo= True,
-                                temperature = 0.0,
-                                )
-        #lprobs = np.array(output["choices"][0]["logprobs"]["token_logprobs"][1:])
-        assert output["choices"][0]["logprobs"]["tokens"][-ans_len-2] == "Answer"
-        assert output["choices"][0]["logprobs"]["tokens"][-ans_len-1] == ":"
+        for _ in range(3):
+            try:
+                output = openai.Completion.create(
+                                        model=model,
+                                        prompt=query,
+                                        max_tokens = 0,
+                                        logprobs = 5,
+                                        echo= True,
+                                        temperature = 0.0,
+                                        )
+                break
+            except openai.error.RateLimitError:
+                time.sleep(1)
+        # lprobs = np.array(output["choices"][0]["logprobs"]["token_logprobs"][1:])
+        # assert output["choices"][0]["logprobs"]["tokens"][-ans_len-2] == "Answer"
+        # assert output["choices"][0]["logprobs"]["tokens"][-ans_len-1] == ":"
+        for i in range(len(output["choices"][0]["logprobs"]["tokens"])):
+            if output["choices"][0]["logprobs"]["tokens"][-i] == "Answer":
+                ans_len = i - 2
+                break
         lprobs = np.array(output["choices"][0]["logprobs"]["token_logprobs"][-ans_len:])
         score = lprobs.mean()
         scores.append(score)
@@ -66,7 +76,7 @@ def gpt3_question(question, retrieved_text=None, model="text-davinci-002", rm_da
     prob = probs[answer]
     return [str(answer)], str(prob)
 
-def gpt3_question_gen(question, retrieved_text=None, model="text-davinci-002", rm_date_q=False, tokenizer=None):
+def gpt3_question_gen(question, retrieved_text=None, model="davinci-002", rm_date_q=False, tokenizer=None):
     sentence = question["question_sentence"]
     demo = "What is the capital city of Japan?"
     #demo = "Who is the President of the U.S.?"
